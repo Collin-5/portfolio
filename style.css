@@ -66,6 +66,7 @@ button.hide{
     .about{
         width: 80%;
         height: 262px;
+        margin: auto;
     }
     /* .image img{
         
@@ -88,7 +89,7 @@ button.hide{
         display: block;
         border-radius: 10px;
         padding: 12px;
-        margin: 12px !important;
+        margin-bottom: 12px !important;
         box-sizing: border-box;
         width: 100%;
     }
@@ -104,7 +105,10 @@ button.hide{
         border-radius: 10px;
         /* box-shadow: gray 5px 5px 5px; */
        
-    
+    }
+    .projects{
+        width: 90%;
+        margin: auto;
     }
   
   }
@@ -129,11 +133,14 @@ button.hide{
     }
     .midle{
         padding-top: 40px;
+        
     }
     
     .links{
         position: static;
     }
+    
+    
     /* .contact{
         width: 100%;
 
@@ -196,6 +203,7 @@ button.hide{
         padding: 5px;
 
     }
+    
 
 }
 
@@ -331,7 +339,7 @@ p a:hover{
 }
 
 footer{
-    /* height: 300px; */
+  height: 150px;
     background-color: rgb(36, 28, 35);
 }
  .totop{
@@ -380,6 +388,9 @@ footer{
     border-radius: 10px;
     margin: 20px;
     box-shadow: 5px 5px 5px gray;
+}
+#one{
+    height: 400px;
 }
 /* .image img{
     border-radius: 10px;
@@ -431,7 +442,8 @@ h5{
 .projects{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 50px;
+    padding-top: 50px;
+    
     
 }
 .project{
@@ -463,18 +475,29 @@ h5{
     color: white;
 }
 
-.form{
-    margin: 10px;
-    width: 45%;
-}
+ /* Contact */
+ .contact{
+     width: 80%;
+     margin: auto;
+     padding-top: 50px;
+ }
+
+
 i{
     color: rgb(50, 206, 167);
 }
-
+.details{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+/* .form{
+    padding: ;
+} */
 .details p{
     color:rgb(36, 28, 35);
     margin: 10px;
     padding-top: 10px;
+    
     
 }
 input, textarea{
