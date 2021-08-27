@@ -65,8 +65,9 @@ button.hide{
     }
     .about{
         width: 80%;
+        
         height: 262px;
-        margin: auto;
+        
     }
     /* .image img{
         
@@ -110,6 +111,8 @@ button.hide{
         width: 90%;
         margin: auto;
     }
+
+    
   
   }
 
@@ -470,6 +473,13 @@ h5{
     text-decoration: none;
     margin: 10px;
 }
+
+.links i, button i{
+    color: #fff;
+}
+.links i:hover{
+    color: rgb(50, 206, 167);
+}
 .links a:hover{
     background-color: #8942a8;
     color: white;
@@ -504,15 +514,19 @@ input, textarea{
     border-radius: 10px;
 }
 
-footer a{
+.tags a{
     font-size: 40px;
     padding: 30px;
 
 }
-footer i:hover{
+.tags i:hover{
     color: blue;
 }
 footer h3{
     font-size: 18px;
     padding: 20px;
+}
+
+.banner .tags{
+    padding-top: 50px;
 }
