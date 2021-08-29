@@ -348,10 +348,18 @@ footer{
  .totop{
     position: fixed;
     right: 20px;
+    bottom: 40%;
     
 }
 .totop-hide{
     visibility: hidden;
+}
+.col{
+    bottom: 38%;
+       
+}
+.col i{
+    color: #8942a8;
 }
 .fixed{
     position: fixed;

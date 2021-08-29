@@ -85,3 +85,8 @@ window.addEventListener('click', function(e){
     element.classList.add("active");
   }
 })
+
+// totop
+setInterval(() => {
+  topLink.classList.toggle("col");
+}, 1000)
